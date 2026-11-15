@@ -9,3 +9,11 @@ wisp --browser   # then open http://localhost:4477
 ```
 
 The Homebrew install has the `wisp` CLI and browser mode. For the Electron desktop app, use `npm install -g wisp-agents`.
+
+## Also in this tap
+
+```sh
+brew install wispagents/tap/ingrain          # ingrain: lint rules learned from corrections of agent code
+brew install wispagents/tap/decision-ledger  # decisions: the project decision ledger for coding agents
+```
+
