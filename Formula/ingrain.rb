@@ -1,7 +1,6 @@
 class Ingrain < Formula
   desc "Learn lint rules from the corrections humans make to coding-agent output"
   homepage "https://github.com/WispAgents/ingrain"
-  version "0.1.0"
   license "Apache-2.0"
 
   on_macos do
