@@ -1,27 +1,27 @@
 class Ingrain < Formula
-  desc "Learn lint rules from the corrections humans make to coding-agent output"
+  desc "Keep coding agents in line with your team's decisions and learned lint rules"
   homepage "https://github.com/WispAgents/ingrain"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/WispAgents/ingrain/releases/download/v0.1.0/ingrain-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "643fd0c9ae58187c97e898407dcbd20f72407758a190de792728694cd211d965"
+      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.1/ingrain-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4190451ccc433e19e295ca32fcb07a0d799cf22b75fe33348822ce2983b87b79"
     end
     on_intel do
-      url "https://github.com/WispAgents/ingrain/releases/download/v0.1.0/ingrain-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e921e0ce8a402032548b7187295d64ec6ae66746867bcca95ce6cf60342da2d9"
+      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.1/ingrain-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "a1ab3fa6bf7cdcaca9decf2d85c49a12ea0130f4faf9b33619143c822110b94f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/WispAgents/ingrain/releases/download/v0.1.0/ingrain-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "90e99e19942f417d12e118b07170c86cc5e3c36709d2471387b7edc93cccea46"
+      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.1/ingrain-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bdae7737bca8ff0a62151e101f66c36bfc11b180a1f2eb32dd6de528ebd21301"
     end
     on_intel do
-      url "https://github.com/WispAgents/ingrain/releases/download/v0.1.0/ingrain-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d99ae61d6677f1d55a2cc9da36248349675dd85af9a8f35831860003336d9ef9"
+      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.1/ingrain-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ad545da8551523f0c09aa117a05d2c965964a3fa796e8d898e748c6b0e68e4dc"
     end
   end
 

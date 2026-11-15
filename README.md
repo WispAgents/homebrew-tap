@@ -13,7 +13,6 @@ The Homebrew install has the `wisp` CLI and browser mode. For the Electron deskt
 ## Also in this tap
 
 ```sh
-brew install wispagents/tap/ingrain          # ingrain: lint rules learned from corrections of agent code
-brew install wispagents/tap/decision-ledger  # decisions: the project decision ledger for coding agents
+brew install wispagents/tap/ingrain  # ingrain: decisions and learned lint rules for coding agents
 ```
 
