@@ -5,23 +5,23 @@ class Ingrain < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.1/ingrain-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "4190451ccc433e19e295ca32fcb07a0d799cf22b75fe33348822ce2983b87b79"
+      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.2/ingrain-v0.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "cec30394ea7df38a2dfee5b80bf9a3ac54617f245f40b0c68df4bcff7a8946f9"
     end
     on_intel do
-      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.1/ingrain-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "a1ab3fa6bf7cdcaca9decf2d85c49a12ea0130f4faf9b33619143c822110b94f"
+      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.2/ingrain-v0.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "75a61ebb4bffd7922a7fc83192fe7d3a5ac4fa9cffa4e576028e5a37085a4d88"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.1/ingrain-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bdae7737bca8ff0a62151e101f66c36bfc11b180a1f2eb32dd6de528ebd21301"
+      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.2/ingrain-v0.2.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a56cb01d5f7ce40c4ad56872f8487623caf200e15b040fb5c2c937eff4844491"
     end
     on_intel do
-      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.1/ingrain-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ad545da8551523f0c09aa117a05d2c965964a3fa796e8d898e748c6b0e68e4dc"
+      url "https://github.com/WispAgents/ingrain/releases/download/v0.2.2/ingrain-v0.2.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "729b44a58fabcc7cfeb841ec73205d582ae43758bb382abf385e713f872d193f"
     end
   end
 
