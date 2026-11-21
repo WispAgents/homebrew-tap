@@ -8,8 +8,8 @@
 class WispAgents < Formula
   desc "Launch coding agents, skip the transcript, read the presentation"
   homepage "https://trywisp.dev/"
-  url "https://registry.npmjs.org/wisp-agents/-/wisp-agents-0.57.0.tgz"
-  sha256 "101a63fadef479ddf3a8b77f48e554434e6b9d11146f0be8ad3b4ea663dc90de"
+  url "https://registry.npmjs.org/wisp-agents/-/wisp-agents-1.0.0-alpha.1.tgz"
+  sha256 "14f6c752fe741c4439fb874136071304c0d1c3bb7c037d773904b4a8a91e1964"
   license "MIT"
 
   depends_on "node"
@@ -17,12 +17,6 @@ class WispAgents < Formula
   def install
     system "npm", "install", *std_npm_args
     bin.install_symlink Dir["#{libexec}/bin/*"]
-
-    # Drop the optional Electron desktop shell. npm ignores --omit=optional on global installs, and
-    # Electron fetches its ~300 MB binary into the keg on first `require`. Without it, `wisp` serves
-    # the browser UI.
-    electron = libexec/"lib/node_modules/wisp-agents/node_modules/electron"
-    rm_r electron if electron.exist?
   end
 
   def caveats
