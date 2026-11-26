@@ -5,9 +5,9 @@
 cask "wisp" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.0-alpha.14"
-  sha256 arm:   "621042c0fbd54ad5b194671e8c19f988b93f8196b8abdaccb2c1722121ef482e",
-         intel: "c03aa33d055931fa9a196b26fdc481a79223c91614adadd6f5030814f1d4c7b7"
+  version "1.0.0-alpha.15"
+  sha256 arm:   "df880386b1642555c8a2c15c3e2fe7278e36eff2430d9c71117bce5e50435b4e",
+         intel: "692bfb995053fca23628061d2fa4919396517d1a1781098f78e92261678f42e8"
 
   url "https://github.com/WispAgents/wisp/releases/download/v#{version}/wisp-mac-#{arch}.zip",
       verified: "github.com/WispAgents/wisp/"
