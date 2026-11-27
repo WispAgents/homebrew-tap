@@ -8,8 +8,8 @@
 class WispAgents < Formula
   desc "Launch coding agents, skip the transcript, read the presentation"
   homepage "https://trywisp.dev/"
-  url "https://registry.npmjs.org/wisp-agents/-/wisp-agents-1.0.0-alpha.15.tgz"
-  sha256 "a2dfa368328a7b4125430f4cb64e1fc991ff02f24dc28f2aaf6bf499cb58b1a8"
+  url "https://registry.npmjs.org/wisp-agents/-/wisp-agents-1.0.0-alpha.18.tgz"
+  sha256 "008ac38cdf3d8ae6cff2391dd735e0f08476797eb0dcc732d3ac95d8c0b517d0"
   license "MIT"
 
   depends_on "node"
